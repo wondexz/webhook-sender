@@ -1,3 +1,3 @@
 # webhook-sender
 
-Uygulamayı exe haline getirmek için console'a `pip install pyinstaller` yazın ardından `pyinstaller --onefile app.pyw` yazarak exe haline getirebilirsiniz.
+Herhangi bir sorun varsa https://discord.com/users/693140554330144829
