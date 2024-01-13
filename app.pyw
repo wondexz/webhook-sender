@@ -2,12 +2,12 @@ import tkinter as tk
 import requests
 
 def send_webhook():
-    webhook_url = url_entry.get()  # Kullanıcının girdiği webhook URL'sini al
-    message = message_entry.get()  # Kullanıcının girdiği mesajı al
+    webhook_url = url_entry.get()
+    message = message_entry.get()
     data = {
-        "content": message  # Kullanıcının girdiği mesajı webhook içeriği olarak kullan
+        "content": message
     }
-    response = requests.post(webhook_url, json=data)  # Webhook'a POST isteği gönder
+    response = requests.post(webhook_url, json=data)
     if response.status_code == 204:
         status_label.config(text="Webhook gönderimi başarılı!", fg="green")
     else:
